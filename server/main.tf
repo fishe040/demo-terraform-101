@@ -1,6 +1,5 @@
 provider "aws" {
-  version = ">=2.27.0"
-  
+  version = ">=2.26.0"
 }
 resource "aws_key_pair" "default" {
   key_name   = "${var.identity}-key"
